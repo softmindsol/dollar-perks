@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <>
       <div className="mt-5">
-        <h2 className="lg:text-[46.4px] text-xl font-bold text-black lg:leading-[48px] font-anton">
+        <h2 className="lg:text-[46.4px] text-[28.8px] font-bold text-black lg:leading-[48px] font-anton">
           14 Benefits Seniors Are Entitled to But Often Forget to Claim
         </h2>
         <div className="flex items-center gap-2 mt-8">
@@ -95,7 +95,7 @@ const Home = () => {
               This company called{" "}
               <Link
                 className="text-blue-500 underline"
-                to="https://get.dollarperks.net/click/1?_gl=1*nxoryh*_gcl_au*MTMwNzIzNjIwMC4xNzY3ODEyMTU2*_ga*OTYwMjcwODYyLjE3Njc4MTIxNTY.*_ga_2C0Q4MD2K3*czE3Njc4MTIxNTYkbzEkZzEkdDE3Njc4MTM3OTQkajU5JGwwJGgw"
+                to="https://get.dollarperks.net/click/1"
               >
                 FinanceBuzz
               </Link>{" "}
@@ -111,7 +111,7 @@ const Home = () => {
             <p>
               <Link
                 className="text-blue-500 underline"
-                to="https://get.dollarperks.net/click/1?_gl=1*iwo5oo*_gcl_au*MTMwNzIzNjIwMC4xNzY3ODEyMTU2*_ga*OTYwMjcwODYyLjE3Njc4MTIxNTY.*_ga_2C0Q4MD2K3*czE3Njc4MTIxNTYkbzEkZzEkdDE3Njc4MTM3OTQkajU5JGwwJGgw"
+                to="https://get.dollarperks.net/click/1"
               >
                 Find out how much you can save on your auto insurance
               </Link>{" "}
@@ -132,7 +132,7 @@ const Home = () => {
               That’s right, with
               <Link
                 className="text-blue-500 underline"
-                to="https://get.dollarperks.net/click/2?_gl=1*m618f6*_gcl_au*MTMwNzIzNjIwMC4xNzY3ODEyMTU2*_ga*OTYwMjcwODYyLjE3Njc4MTIxNTY.*_ga_2C0Q4MD2K3*czE3Njc4MTIxNTYkbzEkZzEkdDE3Njc4MTM3OTQkajU5JGwwJGgw"
+                to="https://get.dollarperks.net/click/2"
               >
                 LendingTree’s New Program
               </Link>{" "}
@@ -366,7 +366,10 @@ const Home = () => {
             </p>
             <p>Here is how to qualify:</p>
             <ul className="list-disc list-inside ml-2">
-              <li> <span className="font-bold">$15,000+</span> in credit card debt</li>
+              <li>
+                {" "}
+                <span className="font-bold">$15,000+</span> in credit card debt
+              </li>
               <li>Struggling with monthly payments</li>
               <li>Have a steady income</li>
             </ul>
@@ -375,11 +378,275 @@ const Home = () => {
                 className="text-blue-500 underline"
                 to="https://get.dollarperks.net/click/6?_gl=1*1mnm032*_gcl_au*MTMwNzIzNjIwMC4xNzY3ODEyMTU2*_ga*OTYwMjcwODYyLjE3Njc4MTIxNTY.*_ga_2C0Q4MD2K3*czE3Njc4MTc1OTkkbzIkZzAkdDE3Njc4MTc1OTkkajYwJGwwJGgw"
               >
-                Take this short questionnaire to find out if you’re eligible for debt relie
+                Take this short questionnaire to find out if you’re eligible for
+                debt relie
               </Link>{" "}
             </p>
           </div>
         </section>
+        <section className="lg:py-5 py-3">
+          <h2 className="lg:text-[28.4px] tex-lg font-black text-black lg:leading-[40px] font-bellarius">
+            10. The United States residents could save a fortune on new windows
+          </h2>
+          <div className="lg:text-lg  text-black font-vollkorn flex flex-col gap-4 mt-3">
+            <p>
+              Old windows drive up your home’s electric bill. But if you live in
+              The United States and your windows are 5+ years old, you could
+              save $1,000s.
+            </p>
+            <p>
+              WindowsUSA is actively helping seniors{" "}
+              <span className="font-bold">
+                score huge savings on new windows
+              </span>
+              . They bring top local vendors into a bidding war for your
+              business, providing the best deals without sacrificing quality.
+              This can drive the cost down for you by orders of magnitude.
+            </p>
+            <p>
+              Slash the cost of new windows by tapping into hidden rebates,
+              unlisted discounts, and local incentives most homeowners don’t
+              even know exist.
+            </p>
+            <p className="font-bold">
+              You might be eligible if you check these 3 boxes:
+            </p>
+            <ul className="list-disc list-inside ml-2">
+              <li> Own your home</li>
+              <li>Have windows that are 5+ years old</li>
+              <li>Live in an eligible zip code</li>
+            </ul>
+            <p>
+              <Link
+                className="text-blue-500 underline"
+                to="https://get.dollarperks.net/click/7?_gl=1*20dorj*_gcl_au*MTMwNzIzNjIwMC4xNzY3ODEyMTU2*_ga*OTYwMjcwODYyLjE3Njc4MTIxNTY.*_ga_2C0Q4MD2K3*czE3Njc4MTc1OTkkbzIkZzAkdDE3Njc4MTc1OTkkajYwJGwwJGgw"
+              >
+                Complete this short questionnaire to see if you qualify
+              </Link>{" "}
+            </p>
+          </div>
+        </section>
+        <section className="lg:py-5 py-3">
+          <h2 className="lg:text-[28.4px] text-lg font-black text-black lg:leading-[40px] font-bellarius">
+            11. Weight Loss: Save as much as 80% on weight loss meds
+          </h2>
+          <div className="lg:text-lg  text-black font-vollkorn flex flex-col gap-4 mt-3">
+            <p>
+              If you’re finally ready to lose weight, FDA-approved GLP-1s — like
+              Semaglutide & Tirzepatide — burn fat fast. The best company we
+              recommend is ranked #1 on Forbes Health, called{" "}
+              <Link
+                className="text-blue-500 underline"
+                to="https://get.dollarperks.net/click/8?_gl=1*5xiaxq*_gcl_au*MTMwNzIzNjIwMC4xNzY3ODEyMTU2*_ga*OTYwMjcwODYyLjE3Njc4MTIxNTY.*_ga_2C0Q4MD2K3*czE3Njc4MTc1OTkkbzIkZzAkdDE3Njc4MTc1OTkkajYwJGwwJGgw"
+              >
+                MyStart gets them to you 80% cheaper!
+              </Link>
+            </p>
+            <p>
+              It might sound crazy, but MyStart operates on a cash-only basis
+              and does not accept insurance. This is how they’re able to provide{" "}
+              <span className="font-bold">up to 80% off the typical cost </span>{" "}
+              of weight-loss medications like Ozempic and Zepbound. (You can pay
+              via credit cards, including Visa and Mastercard.)
+            </p>
+            <p>
+              Skip the surgeries, diets, and expensive costs of weight loss. Get
+              real results with GLP-1s at 80% less than name brands! Plus, get
+              access to U.S.-based doctors 24/7 when you go through MyStart. No
+              insurance is required and there are no hidden fees.
+            </p>
+            <p>
+              Dr. Ritu Chopra (from the show “The Doctors”) says this is the
+              future of weight loss. Join now before prices go up! You could
+              qualify in 5-minutes or less. DollarPerk’s readers are now getting
+              $120 off and free shipping.
+            </p>
+            <Link
+              className="text-blue-500 underline"
+              to="https://get.dollarperks.net/click/8?_gl=1*akrrig*_gcl_au*MTMwNzIzNjIwMC4xNzY3ODEyMTU2*_ga*OTYwMjcwODYyLjE3Njc4MTIxNTY.*_ga_2C0Q4MD2K3*czE3Njc4MTc1OTkkbzIkZzAkdDE3Njc4MTc1OTkkajYwJGwwJGgw"
+            >
+              Complete this short quiz to get up to 80% off weight loss
+              medications starting at ($6/day)
+            </Link>
+          </div>
+        </section>
+        <section className="lg:py-5 py-3">
+          <h2 className="lg:text-[28.4px] tex-lg font-black text-black lg:leading-[40px] font-bellarius">
+            12. This plan protects select The United States homes from many
+            expensive appliance and home repairs (lock in your ultra-low rate)
+          </h2>
+          <div className="lg:text-lg  text-black font-vollkorn flex flex-col gap-4 mt-3">
+            <p>
+              Sounds crazy. And maybe you’re not even sure if this is real. But
+              … you’re probably curious anyway. If you live in The United States
+              and own your home,{" "}
+              <Link
+                className="text-blue-500 underline"
+                to="https://get.dollarperks.net/click/9?_gl=1*ryndyx*_gcl_au*MTMwNzIzNjIwMC4xNzY3ODEyMTU2*_ga*OTYwMjcwODYyLjE3Njc4MTIxNTY.*_ga_2C0Q4MD2K3*czE3Njc4MTc1OTkkbzIkZzAkdDE3Njc4MTc1OTkkajYwJGwwJGgw"
+              >
+                Choice Home Warranty
+              </Link>{" "}
+              could make it so{" "}
+              <span className="font-bold">
+                you don’t have to pay $1,000s on home repairs anymore.
+              </span>
+            </p>
+            <p>
+              They’ve been around since 2008 (so you know they’re legit) and
+              they offer affordable plans to cover appliances and systems in
+              your home that could break down. Just make your claim online or
+              give them a call. Their team is available 24 hours a day, 7 days a
+              week.3
+            </p>
+            <p>
+              <Link
+                className="text-blue-500 underline"
+                to="https://get.dollarperks.net/click/9?_gl=1*ryndyx*_gcl_au*MTMwNzIzNjIwMC4xNzY3ODEyMTU2*_ga*OTYwMjcwODYyLjE3Njc4MTIxNTY.*_ga_2C0Q4MD2K3*czE3Njc4MTc1OTkkbzIkZzAkdDE3Njc4MTc1OTkkajYwJGwwJGgw"
+              >
+                Choose a plan here
+              </Link>{" "}
+              and you could still lock in their ultra-low 2025 rates for a
+              limited time. You could tap into immense savings for nearly any
+              system or appliance in your home that’s covered.
+            </p>
+            <p className="font-bold">
+              Not everyone is eligible for this plan so here’s how to check:
+            </p>
+            <ul className="list-disc list-inside ml-2">
+              <li>Click the link below and enter your zip code.</li>
+              <li>Answer a few simple questions.</li>
+              <li>See if your home qualifies and lock in your rate.</li>
+            </ul>
+            <p>
+              <Link
+                className="text-blue-500 underline"
+                to="https://get.dollarperks.net/click/9?_gl=1*7hz56w*_gcl_au*MTMwNzIzNjIwMC4xNzY3ODEyMTU2*_ga*OTYwMjcwODYyLjE3Njc4MTIxNTY.*_ga_2C0Q4MD2K3*czE3Njc4MTc1OTkkbzIkZzEkdDE3Njc4MTkwODAkajU2JGwwJGgw"
+              >
+                Choose a plan here and and see if you’re eligible for $50 off
+                and 1 month free
+              </Link>{" "}
+            </p>
+            <p>
+              <span className="font-bold">P.S.</span> We negotiated a special
+              deal for DollarPerks’ readers who sign up using the link above.
+              Use it this week to get $50 off and 1 month free. We don’t know
+              how long it will last, so take advantage of it today before it
+              disappears.
+            </p>
+          </div>
+        </section>
+        <section className="lg:py-5 py-3">
+          <h2 className="lg:text-[28.4px] text-lg font-black text-black lg:leading-[40px] font-bellarius">
+            13. Interest: Stop getting ripped off by credit card companies
+          </h2>
+          <div className="lg:text-lg  text-black font-vollkorn flex flex-col gap-4 mt-3">
+            <p>
+              If you have credit card debt, you know that paying your bill each
+              month is anxiety-inducing … and sometimes close to impossible with
+              what you have in the bank.
+            </p>
+            <p>
+              If that’s you, a company called{" "}
+              <span className="font-bold">LendingTree </span> wants to help.They
+              can match you with loan providers that could help you pay off your
+              debt quickly.
+            </p>
+            <p>
+              <span className="font-bold">Think about it this way:</span> For
+              example, $25,000 in credit card debt at 25% APR will cost you
+              $518.83 every single month in interest alone. But, with lower
+              rates available through their lenders, you’d only potentially pay
+              $144.03 interest.
+            </p>
+            <p>
+              That’s over <span className="font-bold">$350</span> a month you’d
+              get to keep for yourself in this scenario! Even better, you don’t
+              need a perfect credit score, and checking for loans won’t affect
+              your credit.
+            </p>
+            <p>
+              Truthfully, this company exists to help you get ahead in life.
+              Highly rated on TrustPilot with more than 15,000 verified reviews,
+              and you can see your options in a matter of minutes. It’s
+              certainly worth a shot if you’re feeling suffocated by debt.
+            </p>
+            <Link
+              className="text-blue-500 underline"
+              to="https://get.dollarperks.net/click/10?_gl=1*3h64po*_gcl_au*MTMwNzIzNjIwMC4xNzY3ODEyMTU2*_ga*OTYwMjcwODYyLjE3Njc4MTIxNTY.*_ga_2C0Q4MD2K3*czE3Njc4MTc1OTkkbzIkZzEkdDE3Njc4MTkwODAkajU2JGwwJGgw"
+            >
+              See if your $25K+ credit card debt is eligible for options with
+              LendingTree
+            </Link>
+          </div>
+        </section>
+        <section className="text-black text-[17px] font-vollkorn">
+          <h2 className="font-bold border-b border-black border-dashed w-fit text-lg">
+            Advertiser Disclosure
+          </h2>
+          <p className="italic text-[17px] font-normal py-6">
+            Companies mentioned in this article have not been reviewed, approved
+            or endorsed by included advertisers. Opinions are ours alone.
+          </p>
+          <p className="italic text-[17px] font-normal py-3">
+            *Clients who are able to stay with the program and get all their
+            debt settled realize approximate savings of 46% before fees, or 25%
+            including our fees, over 24 to 48 months. All claims are based on
+            enrolled debts. Not all debts are eligible for enrollment. Not all
+            clients complete our program for various reasons, including their
+            ability to save sufficient funds. Estimates based on prior results,
+            which will vary based on specific circumstances. We do not guarantee
+            that your debts will be lowered by a specific amount or percentage
+            or that you will be debt-free within a specific period of time. We
+            do not assume consumer debt, make monthly payments to creditors or
+            provide tax, bankruptcy, accounting or legal advice or credit repair
+            services. Not available in all states. Please contact a tax
+            professional to discuss tax consequences of settlement. Please
+            consult with a bankruptcy attorney for more information on
+            bankruptcy. Depending on your state, we may be available to
+            recommend a local tax professional and/or bankruptcy attorney. Read
+            and understand all program materials prior to enrollment, including
+            potential adverse impact on credit rating.”
+          </p>
+          <p className="py-2">
+            <span className="font-bold">Important Disclosures:</span> This
+            website does not constitute an offer or solicitation to lend. The
+            operator of this website is NOT A LENDER, does not make loan or
+            credit decisions, and does not broker loans. The operator of this
+            website is not an agent or representative of any lender. We are a
+            lead generator. This website’s aim is to provide lenders with
+            information about prospective consumer borrowers. We are compensated
+            by lenders for this service.
+          </p>
+          <p className="py-2">
+            Information about loans: Not all lenders can provide loan amounts up
+            to the maximum amount that is advertised. The maximum amount you may
+            borrow from any lender is determined by the lender based on its own
+            policies, which can vary, and on your creditworthiness. The time to
+            receive loan proceeds varies among lenders, and in some
+            circumstances faxing of loan request form materials and other
+            documents may be required. Submitting your information online does
+            not guarantee that you will be approved for a loan.
+          </p>
+          <p className="py-2">
+            Every lender has its own terms and conditions and renewal policy,
+            which may differ from lender to lender. You should review your
+            lender’s terms and renewal policy before signing the loan agreement.
+            Late payments of loans may result in additional fees or collection
+            activities, or both.
+          </p>
+          <p className="py-3">
+            By using this website or services, you represent and warrant that
+            you are at least 18 years old, that you are a resident of the United
+            States, and that you are not a resident of any state where the loan
+            you are applying for is illegal.
+          </p>
+        </section>
+        <div className="flex items-center gap-4 my-6">
+          <img src={postimage} />
+          <div>
+            <h2 className="font-bold">Dollar Perk</h2>
+          </div>
+        </div>
       </div>
     </>
   );
