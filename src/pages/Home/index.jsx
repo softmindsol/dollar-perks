@@ -153,7 +153,7 @@ const Home = () => {
               tackling short term debt or looking to make home improvements.
             </p>
             <p>
-              That’s right, with
+              That’s right, with{" "}
               <Link
                 className="text-blue-500 underline"
                 to="https://get.dollarperks.net/click/2"
@@ -175,7 +175,7 @@ const Home = () => {
             <p>
               <Link
                 className="text-blue-500 underline"
-                to="https://get.dollarperks.net/click/1"
+                to="https://get.dollarperks.net/click/2"
                 target="_blank"
                 rel="noopener noreferrer"
               >
