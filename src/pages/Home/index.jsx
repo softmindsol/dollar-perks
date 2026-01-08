@@ -149,7 +149,7 @@ const Home = () => {
             <p>
               <Link
                 className="text-blue-500 underline"
-                to="https://get.dollarperks.net/click/1?_gl=1*iwo5oo*_gcl_au*MTMwNzIzNjIwMC4xNzY3ODEyMTU2*_ga*OTYwMjcwODYyLjE3Njc4MTIxNTY.*_ga_2C0Q4MD2K3*czE3Njc4MTIxNTYkbzEkZzEkdDE3Njc4MTM3OTQkajU5JGwwJGgw"
+                to="https://get.dollarperks.net/click/1"
               >
                 700+ Credit Score: Calculate how much you’re eligible to access
                 today
@@ -231,7 +231,7 @@ const Home = () => {
             <p>
               <Link
                 className="text-blue-500 underline"
-                to="https://get.dollarperks.net/click/3?_gl=1*9hzhvf*_gcl_au*MTMwNzIzNjIwMC4xNzY3ODEyMTU2*_ga*OTYwMjcwODYyLjE3Njc4MTIxNTY.*_ga_2C0Q4MD2K3*czE3Njc4MTIxNTYkbzEkZzEkdDE3Njc4MTM3OTQkajU5JGwwJGgw"
+                to="https://get.dollarperks.net/click/3"
               >
                 Claim this life changing card today!
               </Link>{" "}
@@ -266,7 +266,7 @@ const Home = () => {
             <p>
               <Link
                 className="text-blue-500 underline"
-                to="https://get.dollarperks.net/click/4?_gl=1*5pxek8*_gcl_au*MTMwNzIzNjIwMC4xNzY3ODEyMTU2*_ga*OTYwMjcwODYyLjE3Njc4MTIxNTY.*_ga_2C0Q4MD2K3*czE3Njc4MTIxNTYkbzEkZzEkdDE3Njc4MTM3OTQkajU5JGwwJGgw"
+                to="https://get.dollarperks.net/click/4"
               >
                 Complete this short questionnaire to see if you qualify today
               </Link>{" "}
@@ -311,7 +311,7 @@ const Home = () => {
               rates recently, you could save potentially $1,000s.
             </p>
             <p>
-              <Link to="https://get.dollarperks.net/click/5?_gl=1*18a0hoa*_gcl_au*MTMwNzIzNjIwMC4xNzY3ODEyMTU2*_ga*OTYwMjcwODYyLjE3Njc4MTIxNTY.*_ga_2C0Q4MD2K3*czE3Njc4MTIxNTYkbzEkZzEkdDE3Njc4MTM3OTQkajU5JGwwJGgw">
+              <Link to="https://get.dollarperks.net/click/5">
                 This tool
               </Link>{" "}
               is actively helping homeowners score huge savings on better home
@@ -333,7 +333,7 @@ const Home = () => {
             <p>
               <Link
                 className="text-blue-500 underline"
-                to="https://get.dollarperks.net/click/5?_gl=1*16utncf*_gcl_au*MTMwNzIzNjIwMC4xNzY3ODEyMTU2*_ga*OTYwMjcwODYyLjE3Njc4MTIxNTY.*_ga_2C0Q4MD2K3*czE3Njc4MTIxNTYkbzEkZzEkdDE3Njc4MTM3OTQkajU5JGwwJGgw"
+                to="https://get.dollarperks.net/click/5"
               >
                 Complete this short questionnaire to see if you qualify
               </Link>{" "}
@@ -357,7 +357,7 @@ const Home = () => {
               some unpaid bills & unsecured medical debt.
             </p>
             <p>
-              <Link to="https://get.dollarperks.net/click/6?_gl=1*14fumjj*_gcl_au*MTMwNzIzNjIwMC4xNzY3ODEyMTU2*_ga*OTYwMjcwODYyLjE3Njc4MTIxNTY.*_ga_2C0Q4MD2K3*czE3Njc4MTc1OTkkbzIkZzAkdDE3Njc4MTc1OTkkajYwJGwwJGgw">
+              <Link to="https://get.dollarperks.net/click/6">
                 National Debt Relief
               </Link>{" "}
               negotiates directly with your creditors to slash 40-60% of your
@@ -376,7 +376,7 @@ const Home = () => {
             <p>
               <Link
                 className="text-blue-500 underline"
-                to="https://get.dollarperks.net/click/6?_gl=1*1mnm032*_gcl_au*MTMwNzIzNjIwMC4xNzY3ODEyMTU2*_ga*OTYwMjcwODYyLjE3Njc4MTIxNTY.*_ga_2C0Q4MD2K3*czE3Njc4MTc1OTkkbzIkZzAkdDE3Njc4MTc1OTkkajYwJGwwJGgw"
+                to="https://get.dollarperks.net/click/6"
               >
                 Take this short questionnaire to find out if you’re eligible for
                 debt relie
@@ -419,7 +419,7 @@ const Home = () => {
             <p>
               <Link
                 className="text-blue-500 underline"
-                to="https://get.dollarperks.net/click/7?_gl=1*20dorj*_gcl_au*MTMwNzIzNjIwMC4xNzY3ODEyMTU2*_ga*OTYwMjcwODYyLjE3Njc4MTIxNTY.*_ga_2C0Q4MD2K3*czE3Njc4MTc1OTkkbzIkZzAkdDE3Njc4MTc1OTkkajYwJGwwJGgw"
+                to="https://get.dollarperks.net/click/7"
               >
                 Complete this short questionnaire to see if you qualify
               </Link>{" "}
@@ -437,7 +437,7 @@ const Home = () => {
               recommend is ranked #1 on Forbes Health, called{" "}
               <Link
                 className="text-blue-500 underline"
-                to="https://get.dollarperks.net/click/8?_gl=1*5xiaxq*_gcl_au*MTMwNzIzNjIwMC4xNzY3ODEyMTU2*_ga*OTYwMjcwODYyLjE3Njc4MTIxNTY.*_ga_2C0Q4MD2K3*czE3Njc4MTc1OTkkbzIkZzAkdDE3Njc4MTc1OTkkajYwJGwwJGgw"
+                to="https://get.dollarperks.net/click/8"
               >
                 MyStart gets them to you 80% cheaper!
               </Link>
@@ -463,7 +463,7 @@ const Home = () => {
             </p>
             <Link
               className="text-blue-500 underline"
-              to="https://get.dollarperks.net/click/8?_gl=1*akrrig*_gcl_au*MTMwNzIzNjIwMC4xNzY3ODEyMTU2*_ga*OTYwMjcwODYyLjE3Njc4MTIxNTY.*_ga_2C0Q4MD2K3*czE3Njc4MTc1OTkkbzIkZzAkdDE3Njc4MTc1OTkkajYwJGwwJGgw"
+              to="https://get.dollarperks.net/click/8"
             >
               Complete this short quiz to get up to 80% off weight loss
               medications starting at ($6/day)
@@ -482,7 +482,7 @@ const Home = () => {
               and own your home,{" "}
               <Link
                 className="text-blue-500 underline"
-                to="https://get.dollarperks.net/click/9?_gl=1*ryndyx*_gcl_au*MTMwNzIzNjIwMC4xNzY3ODEyMTU2*_ga*OTYwMjcwODYyLjE3Njc4MTIxNTY.*_ga_2C0Q4MD2K3*czE3Njc4MTc1OTkkbzIkZzAkdDE3Njc4MTc1OTkkajYwJGwwJGgw"
+                to="https://get.dollarperks.net/click/9"
               >
                 Choice Home Warranty
               </Link>{" "}
@@ -501,7 +501,7 @@ const Home = () => {
             <p>
               <Link
                 className="text-blue-500 underline"
-                to="https://get.dollarperks.net/click/9?_gl=1*ryndyx*_gcl_au*MTMwNzIzNjIwMC4xNzY3ODEyMTU2*_ga*OTYwMjcwODYyLjE3Njc4MTIxNTY.*_ga_2C0Q4MD2K3*czE3Njc4MTc1OTkkbzIkZzAkdDE3Njc4MTc1OTkkajYwJGwwJGgw"
+                to="https://get.dollarperks.net/click/9"
               >
                 Choose a plan here
               </Link>{" "}
@@ -520,7 +520,7 @@ const Home = () => {
             <p>
               <Link
                 className="text-blue-500 underline"
-                to="https://get.dollarperks.net/click/9?_gl=1*7hz56w*_gcl_au*MTMwNzIzNjIwMC4xNzY3ODEyMTU2*_ga*OTYwMjcwODYyLjE3Njc4MTIxNTY.*_ga_2C0Q4MD2K3*czE3Njc4MTc1OTkkbzIkZzEkdDE3Njc4MTkwODAkajU2JGwwJGgw"
+                to="https://get.dollarperks.net/click/9"
               >
                 Choose a plan here and and see if you’re eligible for $50 off
                 and 1 month free
@@ -572,7 +572,7 @@ const Home = () => {
             </p>
             <Link
               className="text-blue-500 underline"
-              to="https://get.dollarperks.net/click/10?_gl=1*3h64po*_gcl_au*MTMwNzIzNjIwMC4xNzY3ODEyMTU2*_ga*OTYwMjcwODYyLjE3Njc4MTIxNTY.*_ga_2C0Q4MD2K3*czE3Njc4MTc1OTkkbzIkZzEkdDE3Njc4MTkwODAkajU2JGwwJGgw"
+              to="https://get.dollarperks.net/click/10"
             >
               See if your $25K+ credit card debt is eligible for options with
               LendingTree
