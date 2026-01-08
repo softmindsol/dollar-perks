@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <header className='container max-w-screen-lg'>
       <nav className='flex justify-between items-center'>
-        <img src={logo} alt="Logo" className='' />
+        <img src={logo} alt="Logo" className='pt-4' />
         {/* <ul className='flex gap-4'>
           {navLinks.map(nav => (
             <li key={nav?.id}>

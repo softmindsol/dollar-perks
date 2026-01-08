@@ -1,17 +1,37 @@
-import { useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { getUsers } from "../../store/features/users/user.service";
+import { useState, useEffect } from "react";
 import postimage from "../../assets/images/postimage.png";
 import thumbnail from "../../assets/images/thumbnail.png";
 import { Link } from "react-router-dom";
+
 const Home = () => {
+  const [showScrollTop, setShowScrollTop] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 300) {
+        setShowScrollTop(true);
+      } else {
+        setShowScrollTop(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
   return (
     <>
       <div className="mt-5">
-        <h2 className="lg:text-[46.4px] text-[28.8px] font-bold text-black lg:leading-[48px] font-anton">
+        <h2 className="lg:text-[46.4px] text-[28.8px] font-bold text-black lg:leading-[51px] font-anton">
           14 Benefits Seniors Are Entitled to But Often Forget to Claim
         </h2>
-        <div className="flex items-center gap-2 mt-8">
+        <div className="flex items-center font-bellarius gap-2 mt-8">
           <div className="w-14 h-14 border rounded-full">
             <img src={postimage} alt="Post Image" />
           </div>
@@ -27,8 +47,8 @@ const Home = () => {
 
         <img src={thumbnail} alt="Thumbnail" className="mt-5" />
         <div className="flex items-center justify-center">
-          <p className="text-[#abb8c3] text-xs text-center border-b border-dotted w-max my-3">
-            Advertiser Disclosure
+          <p className="text-[#abb8c3] uppercase font-vollkorn text-xs text-center border-b border-dotted w-max my-5">
+           Advertiser Disclosure
           </p>
         </div>
         <div className="lg:text-lg text-black font-bellarius flex flex-col gap-4">
@@ -48,7 +68,7 @@ const Home = () => {
             faster than you think! So grab your coffee, and let’s get started.
           </p>
         </div>
-        <section className="lg:py-5 py-3">
+        <section className="lg:pt-4 py-3">
           <h2 className="lg:text-[28.4px] text-lg font-black text-black lg:leading-[40px] font-bellarius">
             1. Make Sure You Get Your Well Deserved Discounts From Retailers
           </h2>
@@ -81,7 +101,7 @@ const Home = () => {
             </p>
           </div>
         </section>
-        <section className="lg:py-5 py-3">
+        <section className="lg:pt-4  py-3">
           <h2 className="lg:text-[28.4px] text-lg font-black text-black lg:leading-[40px] font-bellarius">
             2. The United States seniors can save $1,025 on car insurance
           </h2>
@@ -96,6 +116,8 @@ const Home = () => {
               <Link
                 className="text-blue-500 underline"
                 to="https://get.dollarperks.net/click/1"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 FinanceBuzz
               </Link>{" "}
@@ -112,13 +134,15 @@ const Home = () => {
               <Link
                 className="text-blue-500 underline"
                 to="https://get.dollarperks.net/click/1"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Find out how much you can save on your auto insurance
               </Link>{" "}
             </p>
           </div>
         </section>
-        <section className="lg:py-5 py-3">
+        <section className="lg:pt-4  py-3">
           <h2 className="lg:text-[28.4px] tex-lg font-black text-black lg:leading-[40px] font-bellarius">
             3. Borrow from your home equity with this new program
           </h2>
@@ -133,6 +157,8 @@ const Home = () => {
               <Link
                 className="text-blue-500 underline"
                 to="https://get.dollarperks.net/click/2"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 LendingTree’s New Program
               </Link>{" "}
@@ -150,6 +176,8 @@ const Home = () => {
               <Link
                 className="text-blue-500 underline"
                 to="https://get.dollarperks.net/click/1"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 700+ Credit Score: Calculate how much you’re eligible to access
                 today
@@ -157,7 +185,7 @@ const Home = () => {
             </p>
           </div>
         </section>
-        <section className="lg:py-5 py-3">
+        <section className="lg:pt-4  py-3">
           <h2 className="lg:text-[28.4px] text-lg font-black text-black lg:leading-[40px] font-bellarius">
             4. Pay less on food & entertainment
           </h2>
@@ -191,7 +219,7 @@ const Home = () => {
             </p>
           </div>
         </section>
-        <section className="lg:py-5 py-3">
+        <section className="lg:pt-4  py-3">
           <h2 className="lg:text-[28.4px] text-lg font-black text-black lg:leading-[40px] font-bellarius">
             5. Credit Card Debt: Pay no interest into 2027 with this no annual
             fee card
@@ -232,13 +260,15 @@ const Home = () => {
               <Link
                 className="text-blue-500 underline"
                 to="https://get.dollarperks.net/click/3"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Claim this life changing card today!
               </Link>{" "}
             </p>
           </div>
         </section>
-        <section className="lg:py-5 py-3">
+        <section className="lg:pt-4  py-3">
           <h2 className="lg:text-[28.4px] tex-lg font-black text-black lg:leading-[40px] font-bellarius">
             6. Overpaying for bathroom renovation? The United States residents
             can save a fortune on walk in showers
@@ -267,13 +297,15 @@ const Home = () => {
               <Link
                 className="text-blue-500 underline"
                 to="https://get.dollarperks.net/click/4"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Complete this short questionnaire to see if you qualify today
               </Link>{" "}
             </p>
           </div>
         </section>
-        <section className="lg:py-5 py-3">
+        <section className="lg:pt-4  py-3">
           <h2 className="lg:text-[28.4px] text-lg font-black text-black lg:leading-[40px] font-bellarius">
             7. Be aware of travel & accommodation discounts
           </h2>
@@ -298,7 +330,7 @@ const Home = () => {
             </p>
           </div>
         </section>
-        <section className="lg:py-5 py-3">
+        <section className="lg:pt-4  py-3">
           <h2 className="lg:text-[28.4px] tex-lg font-black text-black lg:leading-[40px] font-bellarius">
             8. Home Insurance: Save potentially $1,000 or more on home insurance
             in United States
@@ -311,7 +343,12 @@ const Home = () => {
               rates recently, you could save potentially $1,000s.
             </p>
             <p>
-              <Link to="https://get.dollarperks.net/click/5">
+              <Link
+                to="https://get.dollarperks.net/click/5"
+                target="_blank"
+                className="text-blue-500 underline"
+                rel="noopener noreferrer"
+              >
                 This tool
               </Link>{" "}
               is actively helping homeowners score huge savings on better home
@@ -334,13 +371,15 @@ const Home = () => {
               <Link
                 className="text-blue-500 underline"
                 to="https://get.dollarperks.net/click/5"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Complete this short questionnaire to see if you qualify
               </Link>{" "}
             </p>
           </div>
         </section>
-        <section className="lg:py-5 py-3">
+        <section className="lg:pt-4  py-3">
           <h2 className="lg:text-[28.4px] tex-lg font-black text-black lg:leading-[40px] font-bellarius">
             9. This credit card debt relief program eliminates 40-60% of what
             you owe
@@ -357,7 +396,12 @@ const Home = () => {
               some unpaid bills & unsecured medical debt.
             </p>
             <p>
-              <Link to="https://get.dollarperks.net/click/6">
+              <Link
+                to="https://get.dollarperks.net/click/6"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 underline"
+              >
                 National Debt Relief
               </Link>{" "}
               negotiates directly with your creditors to slash 40-60% of your
@@ -377,6 +421,8 @@ const Home = () => {
               <Link
                 className="text-blue-500 underline"
                 to="https://get.dollarperks.net/click/6"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Take this short questionnaire to find out if you’re eligible for
                 debt relie
@@ -384,7 +430,7 @@ const Home = () => {
             </p>
           </div>
         </section>
-        <section className="lg:py-5 py-3">
+        <section className="lg:pt-4  py-3">
           <h2 className="lg:text-[28.4px] tex-lg font-black text-black lg:leading-[40px] font-bellarius">
             10. The United States residents could save a fortune on new windows
           </h2>
@@ -420,13 +466,15 @@ const Home = () => {
               <Link
                 className="text-blue-500 underline"
                 to="https://get.dollarperks.net/click/7"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Complete this short questionnaire to see if you qualify
               </Link>{" "}
             </p>
           </div>
         </section>
-        <section className="lg:py-5 py-3">
+        <section className="lg:pt-4  py-3">
           <h2 className="lg:text-[28.4px] text-lg font-black text-black lg:leading-[40px] font-bellarius">
             11. Weight Loss: Save as much as 80% on weight loss meds
           </h2>
@@ -438,6 +486,8 @@ const Home = () => {
               <Link
                 className="text-blue-500 underline"
                 to="https://get.dollarperks.net/click/8"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 MyStart gets them to you 80% cheaper!
               </Link>
@@ -464,13 +514,15 @@ const Home = () => {
             <Link
               className="text-blue-500 underline"
               to="https://get.dollarperks.net/click/8"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Complete this short quiz to get up to 80% off weight loss
               medications starting at ($6/day)
             </Link>
           </div>
         </section>
-        <section className="lg:py-5 py-3">
+        <section className="lg:pt-4  py-3">
           <h2 className="lg:text-[28.4px] tex-lg font-black text-black lg:leading-[40px] font-bellarius">
             12. This plan protects select The United States homes from many
             expensive appliance and home repairs (lock in your ultra-low rate)
@@ -483,6 +535,8 @@ const Home = () => {
               <Link
                 className="text-blue-500 underline"
                 to="https://get.dollarperks.net/click/9"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Choice Home Warranty
               </Link>{" "}
@@ -502,6 +556,8 @@ const Home = () => {
               <Link
                 className="text-blue-500 underline"
                 to="https://get.dollarperks.net/click/9"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Choose a plan here
               </Link>{" "}
@@ -521,6 +577,8 @@ const Home = () => {
               <Link
                 className="text-blue-500 underline"
                 to="https://get.dollarperks.net/click/9"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Choose a plan here and and see if you’re eligible for $50 off
                 and 1 month free
@@ -535,7 +593,7 @@ const Home = () => {
             </p>
           </div>
         </section>
-        <section className="lg:py-5 py-3">
+        <section className="lg:pt-4  py-3">
           <h2 className="lg:text-[28.4px] text-lg font-black text-black lg:leading-[40px] font-bellarius">
             13. Interest: Stop getting ripped off by credit card companies
           </h2>
@@ -573,6 +631,8 @@ const Home = () => {
             <Link
               className="text-blue-500 underline"
               to="https://get.dollarperks.net/click/10"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               See if your $25K+ credit card debt is eligible for options with
               LendingTree
@@ -648,6 +708,30 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      {/* Scroll to Top Button */}
+      {showScrollTop && (
+        <button
+          onClick={scrollToTop}
+          className="fixed bottom-8 right-8 bg-gray-500 hover:bg-blue-600 text-white p-4 rounded shadow-lg transition-all duration-300 hover:scale-110 z-50"
+          aria-label="Scroll to top"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            strokeWidth={2}
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M5 10l7-7m0 0l7 7m-7-7v18"
+            />
+          </svg>
+        </button>
+      )}
     </>
   );
 };
